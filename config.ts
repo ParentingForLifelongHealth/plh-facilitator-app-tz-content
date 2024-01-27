@@ -20,7 +20,7 @@ config.android = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-tz-content.git",
-  content_tag_latest: "1.1.2",
+  content_tag_latest: "1.1.3",
 };
 
 config.api.db_name = "plh_facilitator_tz"
@@ -37,5 +37,6 @@ config.app_config.APP_THEMES.defaultThemeName = "professional";
 config.app_config.APP_UPDATES.enabled = true;
 config.app_config.APP_UPDATES.completeUpdateTemplate = "app_update_complete";
 config.app_config.APP_FOOTER_DEFAULTS.templateName = "footer";
+config.error_logging = { dsn: "https://1459d77a855f4c82937638bcb0a1106e@app.glitchtip.com/5662"};
 
 export default config;
